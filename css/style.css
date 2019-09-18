@@ -40,9 +40,9 @@ nav {
     display: none;
 }
 
-form {
-    width: 60%;
-}
+ form {
+    width: 50%;
+} 
 
 .search_form {
     width: 500px;
@@ -50,14 +50,17 @@ form {
     margin-top: 1.3em;
     font-family: "FontAwesome";
 }
+.navigation{
+    display: flex;
 
+}
 .navigation_inner {
     font-size: 1.4rem;
     margin-right: 2em;
     padding: 30px 0;
     font-weight: bold;
     color: rgb(118, 118, 118);
-    display: inline-block;
+    list-style: none;;
 }
 
 /* メイン */
